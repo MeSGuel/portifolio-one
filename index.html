@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio ONE</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/6786615f2b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="header" id="header">
+        <nav class="navbar">
+            <a href="#sobremim">Sobre mim</a>
+            <a href="#skills">Skills</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="https://github.com/MeSGuel.png" alt="Foto Irreal de Miguel Santos">
+        </div>
+
+        <div class="home__content">
+            <h1>Olá, me chamo <span>Miguel! <br>Estudante Front-End</span></h1>
+            <p>Sou um estudante de programação Front-End! Ainda estou distante de estar pronto, mas não vou desistir até conseguir!</p>
+            <a href="https://github.com/MeSGuel" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </section>
+
+
+    <section class="sobre-mim" id="sobremim">
+        <h2>Sobre Mim</h2>
+
+        <div class="sobre-info">
+            <p>Olá! Como você viu em cima, eu me chamo Miguel. Sou um garoto de 19 anos que quer viver a vida como um programador, afinal acho essa área extramamente interessante e impresisoannte!</p>
+            <p>Quero viver a vida disso, então dedico muito do meu tempo para aprender o que preciso e também o que me chama atenção - eu gosto de fazer diferente sabe? Me empolga!</p>
+        </div>
+    </section>
+
+    <section class="skills-hobbies" id="skills">
+        <div class="skills">
+            <h2>Habilidades</h2>
+
+            <div class="skills__card">
+                <div class="card-child html">
+                    <i class="fa-brands fa-html5"></i>
+                    <p>HTML 5</p>
+                </div>
+    
+                <div class="card-child css">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p>CSS</p>
+                </div>
+    
+                <div class="card-child js">
+                    <i class="fa-brands fa-js"></i>
+                    <p>JavaScript</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hobbies">
+            <h2>Hobbies</h2>
+            
+            <div class="hobbies__card">
+                <div class="card-child games">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <p>Jogar Games</p>
+                </div>
+    
+                <div class="card-child musicas">
+                    <i class="fa-solid fa-headphones-simple"></i>
+                    <p>Ouvir Músicas</p>
+                </div>
+    
+                <div class="card-child ler">
+                    <i class="fa-solid fa-book-open"></i>
+                    <p>Ler</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projetos" id="projetos">
+        <h2>Experiência Profissional</h2>
+
+        <div class="projetos__container">
+            <div class="projetos-card">
+                <div class="container-img">
+                    <img src="assets/alura-chique.png" alt="Projeto Alura Chique">
+                </div>
+                <div class="container-desc">
+                    <h3>Alura Chique</h3>
+                    <p>Challenge One - Alura Geek</p>
+                    <button><a href="https://github.com/MeSGuel/DesafioT6-One-AluraChique" target="_blank">Repositório</a></button>
+                    <button><a href="https://desafio-t6-one-alura-chique.vercel.app/" target="_blank">Ver Demo</a></button>
+                </div>
+            </div>
+
+            <div class="projetos-card invert">
+                <div class="container-img">
+                    <img src="assets/decodificador.png" alt="Projeto Alura Chique">
+                </div>
+                <div class="container-desc">
+                    <h3>Decodificador de Texto</h3>
+                    <p>Challenge One - Decodificador de Texto</p>
+                    <button><a href="https://github.com/MeSGuel/alura-decodificador-de-texto" target="_blank">Repositório</a></button>
+                    <button><a href="https://alura-decodificador-de-texto.vercel.app/" target="_blank">Ver Demo</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contato" id="contato">
+        <h2>Contato</h2>
+
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field field">
+                    <input type="text" placeholder="Nome" id="name" class="item">
+                </div>
+
+                <div class="input-field field">
+                    <input type="text" placeholder="E-mail" id="email" class="item">
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field field subject">
+                    <input type="text" placeholder="Assunto" id="subject" class="item">
+                </div>
+            </div>
+
+            <div class="textarea-field field">
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Mensagem" class="item"></textarea>
+            </div>
+
+            <button type="submit">Enviar mensagem</button>
+        </form>
+    </section>
+
+    <section class="rodape" id="rodape">
+        <div class="texto-rodape">
+            <p>2024 &copy; Feito por Miguel Santos</p>            
+        </div>
+
+        <div class="rodape-iconTop">
+            <a href="#home">
+                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+            </a>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
